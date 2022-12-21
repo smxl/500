@@ -1,7 +1,7 @@
-Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件: Apple News 解锁规则 + 捷径, 去广告分流规则, TikTok 解锁 Rewrite, 神机分流规则, VIP 视频解析重写 + 捷径
+Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式
 
 ## 简介
-> + 整合多个 Quantumult X 重写配置, 利用 GeoIP 特性剔除大部分规则节省开销, 配合 Vercel 重定向精简规则和配置文件
+> + 利用 Quantumult X 和 GeoIP 特性整合多个重写配置, 剔除大部分规则以节省开销, 通过 Vercel 重定向精简规则和配置文件
 - [使用方法](https://github.com/smxl/500#使用方法)
 - [分流规则和重写](https://github.com/smxl/500#分流规则和重写)
 - [小工具](https://github.com/smxl/500#小工具)
@@ -11,7 +11,7 @@ Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件: Appl
 
 ## 声明
 
-本项目在多个 [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) 配置文件上进行了修改、整理、收集和拓展
+本项目在多个 [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) 配置文件上进行了优化，包括修改、整理、收集和拓展
 
 Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
@@ -42,7 +42,7 @@ Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
 9. 启动, 由于 Quantumult X 不支持 url schema / url-schema 启动, 建议打开 其他设置 - VPN - 始终开启, 剩余开关按需选择
 
-注: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用, 另外本配置使用了公开的 MITM 证书, 如果你也有 Thor, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)
+注1: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用 ~~另本配置使用了公开的 MITM 证书, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)~~
 
 注2: 由于 QX 并未提供对 naiveproxy 的支持, 当下版本推荐在局域网内的 OpenWRT 上运行, 通过本地服务 ```socks5=192.168.124.124:1080, tag=LAN``` 链接, 路由端添加启动脚本 ```naive /[PATH]/config.json```
 
@@ -61,7 +61,7 @@ unbreak|规则|https://cnn.vercel.app/xf-unbreak|规则修正
 adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告
 ads|重写|https://cnn.vercel.app/xr-ads|重写去广告
 adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告
-apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去天气兼容 iOS16
+apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable 小组件显示美标 AQI
 bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
 covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝
@@ -72,11 +72,11 @@ fake|重写|https://cnn.vercel.app/xr-fake|Fake Pro 解锁, lk 的基础上进�
 jike|重写|https://cnn.vercel.app/xr-jike|即刻去直播
 jsc|重写|https://cnn.vercel.app/xr-jsc|脚本获取 Cookies
 lk|重写|https://cnn.vercel.app/xr-lk|国外服务 Fake VIP
-upgrade|重写|https://cnn.vercel.app/xr-upgrade|屏蔽APP更新检查
+upgrade|重写|https://cnn.vercel.app/xr-upgrade|屏蔽应用更新检查
 res|重写|https://cnn.vercel.app/xr-res|大陆软件优化
 search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写
-v|重写|https://cnn.vercel.app/xr-v|VIP 视频解析重写
-video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含 VIP 视频解析重写, TikTok US, YouTube 去广告
+v|重写|https://cnn.vercel.app/xr-v|视频解析重写
+video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含视频解析重写, TikTok US, YouTube 去广告
 
 FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
 
@@ -86,7 +86,7 @@ FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用
 -|-|-
 V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.vercel.app/v.html?vv=视频地址 支持参数传入, 替换中文部分为网址即可使用
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
-V 视频|高可用解析|https://v.im/
+YouTube 去广告油猴脚本|相较于 QX 重写更稳定|https://github.com/smxl/YouTube-Sponsor-Skip/raw/main/yt.sponsor.skip.user.js
 
 请自行抓包, [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 或 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) + 关键词 bpu MZBuy.woa Google
 
