@@ -1,10 +1,9 @@
 {
     "redirects": [
-      { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/500-min-clash.yaml" },
+      { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/cnn-clash.yaml" },
       { "source": "/gh", "destination": "https://github.com/smxl/500" },
-      { "source": "/mmdb", "destination": "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb" },
-      { "source": "/plist", "destination": "https://github.com/smxl/500/raw/main/static/ab.plist" },
-      { "source": "/q", "destination": "https://github.com/smxl/500/raw/main/500-cnn.conf" },
+      { "source": "/mmdb", "destination": "https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb" },
+      { "source": "/q", "destination": "https://github.com/smxl/500/raw/main/500.conf" },
       { "source": "/v", "destination": "/v.html" },
       { "source": "/xc-sub", "destination": "https://api.10101.io/sub?target=clash&url=https://github.com/freefq/free/blob/master/v2?raw=true&list=true" },
       { "source": "/xf-ads", "destination": "https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/Guard/Advertising.list" },
