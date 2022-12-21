@@ -1,0 +1,82 @@
+# China Area Network
+# > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alibabausercontent.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alikunlun.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIX,mxhichina.com,DIRECT
+HOST-SUFFIX,soku.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,xiami.com,DIRECT
+HOST-SUFFIX,xiami.net,DIRECT
+# > Baidu
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,baidubcr.com,DIRECT
+HOST-SUFFIX,baidupan.com,DIRECT
+HOST-SUFFIX,baidupcs.com,DIRECT
+HOST-SUFFIX,bdimg.com,DIRECT
+HOST-SUFFIX,bdstatic.com,DIRECT
+HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
+# > bilibili
+HOST-SUFFIX,acgvideo.com,DIRECT
+HOST-SUFFIX,biliapi.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilibili.tv,DIRECT
+HOST-SUFFIX,hdslb.com,DIRECT
+# > ByteDance
+HOST-SUFFIX,feiliao.com,DIRECT
+HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,snssdk.com,DIRECT
+HOST-SUFFIX,iesdouyin.com,DIRECT
+HOST-SUFFIX,toutiao.com,DIRECT
+# > CCTV
+HOST-SUFFIX,cctv.com,DIRECT
+HOST-SUFFIX,cctvpic.com,DIRECT
+HOST-SUFFIX,livechina.com,DIRECT
+# > DiDi
+HOST-SUFFIX,didialift.com,DIRECT
+HOST-SUFFIX,didiglobal.com,DIRECT
+HOST-SUFFIX,udache.com,DIRECT
+# > ChinaTelecom
+HOST-SUFFIX,21cn.com,DIRECT
+# > JD
+USER-AGENT,JD4iPhone*,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jd.hk,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+# > Meituan
+HOST-SUFFIX,dianping.com,DIRECT
+HOST-SUFFIX,dpfile.com,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
+# > NetEase
+USER-AGENT,NeteaseMusic*,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,126.com,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,127.net,DIRECT
+HOST-SUFFIX,163yun.com,DIRECT
+HOST-SUFFIX,lofter.com,DIRECT
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,ydstatic.com,DIRECT
+# > Sina
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+# > WeChat OverSeas
+HOST-KEYWORD, hkextshort, PROXY
+HOST-KEYWORD, hkminorshort, PROXY
+HOST-KEYWORD, sgshort, PROXY
+HOST-KEYWORD, sgminorshort, PROXY

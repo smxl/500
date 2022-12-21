@@ -1,0 +1,108 @@
+# 500 / Simple Config GeoIP for Clash ver 11.23.2022
+# https://cnn.vercel.app
+# https://github.com/smxl/500
+port: 12330
+socks-port: 12331
+redir-port: 12332
+mixed-port: 12333
+
+external-controller: '127.0.0.1:9090'
+secret: ''
+
+allow-lan: true
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 101.101.101.101
+    - 52.80.52.52
+  nameserver:
+    - https://dns.twnic.tw/dns-query
+    - tls://101.101.101.101:853
+  fallback:
+    - https://185.222.222.222/dns-query
+    - tls://1.0.0.1:853
+
+proxies:
+# # 如需支持 naiveproxy 取消注释
+#  - {name: LAN, server: 192.168.124.124, port: 1080, type: socks5}
+
+proxy-providers:
+  # My: # 你也可以将 url 换成你的 clash 节点订阅链接或者只替换中文部分
+  #   type: http
+  #   path: ./my.yaml
+  #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
+  #   interval: 3600
+  #   health-check:
+  #       enable: false
+  #       url: http://www.apple.com/generate_204
+  #       interval: 300
+  Free:
+    type: http
+    path: ./free.yaml
+    url: https://api.10101.io/sub?target=clash&url=https://github.com/freefq/free/blob/master/v2?raw=true&list=true
+    interval: 3600
+    health-check:
+        enable: false
+        url: http://www.apple.com/generate_204
+        interval: 300
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Auto
+      - Manual
+      # - Min
+
+  - name: Auto
+    type: url-test
+    proxies:
+    use:
+      - Free
+    url: http://www.apple.com/generate_204
+    interval: 300
+
+  - name: Manual
+    type: select
+    proxies:
+    use:
+      - Free
+
+  # - name: Min
+  #   type: select
+  #   proxies:
+  #   use:
+  #     - My
+  #   url: http://www.apple.com/generate_204
+
+rule-providers:
+  fix:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/fix.yaml"
+    path: ./fix.yaml
+    interval: 3600
+    
+  lan:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/lan.yaml"
+    path: ./lan.yaml
+    interval: 3600
+
+  mi:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/mi.yaml"
+    path: ./mi.yaml
+    interval: 3600
+
+rules:
+  - RULE-SET,fix,Proxy
+  - RULE-SET,lan,DIRECT
+  - RULE-SET,mi,REJECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy

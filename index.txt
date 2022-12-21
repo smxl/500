@@ -1,0 +1,39 @@
+# 极简模板 https://github.com/smxl/500
+# 28.11.22
+[general]
+dns_reject_domain_behavior=no-error-no-answer
+
+[dns]
+no-ipv6
+no-system
+server=119.29.29.29
+server=223.5.5.5
+
+[policy]
+static=🚥, PROXY, Slow, Fast, img-url=circle.dashed.system
+url-latency-benchmark=Slow, server-tag-regex=(?=.*(Lite))^((?!(德|美|英)).)*$, img-url=circle.dashed.system
+url-latency-benchmark=Fast, server-tag-regex=(?=.*(CN2|GIA|IPLC|IEPL)), img-url=circle.dashed.system
+
+[server_remote]
+流量订阅, tag=Slow, enabled=true, img-url=circle.dashed.system
+高速订阅, tag=Fast, enabled=true, img-url=circle.dashed.system
+
+[filter_remote]
+
+[rewrite_remote]
+
+[server_local]
+
+[filter_local]
+host-wildcard, *.cn, direct
+geoip, cn, direct
+final, 🚥
+
+[rewrite_local]
+[task_local]
+[http_backend]
+
+[mitm]
+passphrase=
+p12=
+hostname=
