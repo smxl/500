@@ -5,7 +5,7 @@ Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件: Appl
 - [使用方法](https://github.com/smxl/500#使用方法)
 - [分流规则和重写](https://github.com/smxl/500#分流规则和重写)
 - [小工具](https://github.com/smxl/500#小工具)
-- [Clash](https://github.com/smxl/500#Clash 配置文件)
+- [Clash](https://github.com/smxl/500#clash-配置文件)
 - [配置文件更新](https://github.com/smxl/500#配置文件更新)
 - [推荐](https://github.com/smxl/500#推荐)
 
