@@ -19,9 +19,9 @@ Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
 1. 下载或复制配置文件
 
-[https://github.com/smxl/500/raw/main/500-cnn.conf](https://github.com/smxl/500/raw/main/500-cnn.conf)
+[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)
 
-[https://cnn.vercel.app/500-cnn.conf](https://cnn.vercel.app/500-cnn.conf)
+[https://cnn.vercel.app/500.conf](https://cnn.vercel.app/500.conf)
 
 2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定
 
@@ -123,13 +123,13 @@ proxy-providers:
 
 500-cnn.conf
 
-[https://github.com/smxl/500/raw/main/500-cnn.conf](https://github.com/smxl/500/raw/main/500-cnn.conf)
+[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)
 
 [https://cnn.vercel.app/q](https://cnn.vercel.app/q)
 
 500-min-clash.yaml
 
-[https://github.com/smxl/500/raw/main/500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
+[https://github.com/smxl/500/raw/main/cnn-clash.yaml](https://github.com/smxl/500/raw/main/cnn-clash.yaml)
 
 [https://cnn.vercel.app/c](https://cnn.vercel.app/c)
 
