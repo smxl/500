@@ -86,7 +86,8 @@ FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用
 -|-|-
 V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.vercel.app/v.html?vv=视频地址 支持参数传入, 替换中文部分为网址即可使用
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
-YouTube 去广告油猴脚本|相较于 QX 重写更稳定|https://github.com/smxl/YouTube-Sponsor-Skip/raw/main/yt.sponsor.skip.user.js
+[YouTube 去广告油猴脚本](https://github.com/smxl/YouTube-Sponsor-Skip)|相较于 QX 重写更稳定|https://github.com/smxl/YouTube-Sponsor-Skip/raw/main/yt.sponsor.skip.user.js
+[AQI 小组件]()|不影响系统天气|
 
 请自行抓包, [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 或 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) + 关键词 bpu MZBuy.woa Google
 
