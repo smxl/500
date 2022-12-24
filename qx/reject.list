@@ -1,0 +1,141 @@
+# Ads
+host-suffix, itad.linetv.tw, reject
+host-suffix, discardrp.umetrip.com, reject
+host-suffix, dsp-x.baidu.com, reject
+host-suffix, iadsdk.apple.com, reject
+host-suffix, mbd.baidu.com, reject
+host-suffix, res.xiaojukeji.com, reject
+host-suffix, startup.umetrip.com, reject
+# Alibaba
+host-suffix, acs.m.taobao.com, reject
+host-suffix, aid.m.taobao.com, reject
+host-suffix, aoscdn.amap.com, reject
+host-suffix, applog.uc.cn, reject
+host-suffix, dualstack-logs.amap.com, reject
+host-suffix, eco.taobao.com, reject
+host-suffix, loggw-ex.alipay.com, reject
+host-suffix, loggw.alipay.com.cn, reject
+host-suffix, logs.amap.com, reject
+host-suffix, mdap.alipay.com, reject
+host-suffix, mmstat.com, reject
+host-suffix, mum.m.alibaba.com, reject
+host-suffix, openmonitor.alipay-eco.com, reject
+host-suffix, page.amap.com, reject
+host-suffix, store.is.autonavi.com, reject
+host-wildcard, *adashx*, reject
+host-wildcard, optimus-ads.amap.*, reject
+# Baidu
+host-suffix, afd.baidu.com, reject
+host-suffix, als.baidu.com, reject
+host-suffix, cpro.baidu.com, reject
+host-suffix, duapps.com, reject
+host-suffix, hm.baidu.com, reject
+host-suffix, hmma.baidu.com, reject
+host-suffix, nadvideo2.baidu.com, reject
+host-suffix, pos.baidu.com, reject
+host-wildcard, *click.baidu.com, reject
+host-wildcard, mobads*.baidu.com, reject
+host-wildcard, t7z.cupid.*, reject
+# Bilibili
+host-suffix, data.bilibili.com, reject
+host-suffix, dataflow.biliapi.com, reject
+host-wildcard, *-h5-mobile-api.biligame.com, reject
+ip-cidr, 203.107.1.1/24, reject
+# Bytedance
+host-suffix, ad.toutiao.com, reject
+host-wildcard, *ad.byteoversea.com, reject
+host-wildcard, *pangolin*sdk*, reject
+# Braze
+host-wildcard, *iad-0?.braze.com, reject
+host-wildcard, *iad*.appboy.com, reject
+# Google
+host-suffix, ads.youtube.com, reject
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, googletagservices.com, reject
+host-suffix, safebrowsing.googleapis.com, reject
+host-wildcard, *firebaselogging*, reject
+# Microsoft
+host-wildcard, *ads?.msn.com, reject
+# Netease
+host-wildcard, *ad*.126.*, reject
+host-wildcard, *ad*.127.*, reject
+# Sina
+host-suffix, u1.img.mobile.sina.cn, reject
+host-wildcard, adimg.?ve.weibo.com, reject
+host-wildcard, sax*.sina.com.cn, reject
+# Snapchat
+host-wildcard, ads*.snapchat.com, reject
+# Tencent
+host-suffix, e.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, l.qq.com, reject
+host-suffix, safebrowsing.urlsec.qq.com, reject
+host-suffix, splashqqlive.gtimg.com, reject
+host-suffix, wa.gtimg.com, reject
+host-wildcard, adsmind*, reject
+host-wildcard, pgdt.*img.*, reject
+host-wildcard, wxsnsdy*.wxs.qq.com, reject
+# Unity
+host-suffix, ads.internal.unity3d.com, reject
+host-suffix, ads.prd.ie.internal.unity3d.com, reject
+# Ximalaya
+host-wildcard, ad*.ximalaya.com, reject
+# Yahoo
+host-suffix, gemini.yahoo.com, reject
+host-wildcard, *ads.yahoo.*, reject
+host-wildcard, ad*.yahoo.*, reject
+# Zhihu
+host-suffix, appcloud2.in.zhihu.com, reject
+host-suffix, mqtt.zhihu.com, reject
+host-suffix, sugar.zhihu.com, reject
+ip-cidr, 118.89.204.198/32, reject
+# 51.la
+host-suffix, 51.la, reject
+# Privacy & Tracker
+host-suffix, adjust.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, appsflyer.com, reject
+host-suffix, branch.io, reject
+host-suffix, bugly.qq.com, reject
+host-suffix, cpatrk.net, reject
+# host-suffix, crashlytics.com, reject
+host-suffix, exoclick.com, reject
+host-suffix, graph.facebook.com, reject
+host-suffix, growingio.com, reject
+host-suffix, hzjizhun.com, reject
+host-suffix, kochava.com, reject
+host-suffix, openinstall.io, reject
+host-suffix, popads.net, reject
+host-suffix, scorecardresearch.com, reject
+host-suffix, sensorsdata.cn, reject
+host-suffix, talkingdata.net, reject
+host-suffix, tapad.com, reject
+host-suffix, tend.io, reject
+host-suffix, tpctrust.com, reject
+host-suffix, zgsdk.zhugeio.com, reject
+host-wildcard, *adnxs*, reject
+host-wildcard, *adsystem*, reject
+host-wildcard, *advertising*, reject
+host-wildcard, *analytics*, reject
+host-wildcard, *applovin*, reject
+host-wildcard, *applvn*, reject
+host-wildcard, *aurorapush*, reject
+host-wildcard, *avazu*, reject
+host-wildcard, *bigdata*, reject
+host-wildcard, *jpush*, reject
+host-wildcard, *metrics*, reject
+host-wildcard, pixel.*, reject
+host-wildcard, *propeller*, reject
+host-wildcard, *sentry*, reject
+host-wildcard, *telemetry*, reject
+host-wildcard, *track*, reject
+host-wildcard, *trafficjunky*, reject
+host-wildcard, *umeng*, reject
+host-wildcard, *unityads*, reject
+host-wildcard, *vungle*, reject
+host-wildcard, ad.*, reject
+host-wildcard, ads.*, reject
