@@ -1,0 +1,33 @@
+# Li
+host-suffix, linkedin.com, proxy
+# Amazon & CDN
+ip-asn, 16509, proxy
+# Apple
+host-wildcard, *apple*, proxy
+ip-asn, 714, proxy
+# ip-cidr, 17.0.0.0/8, proxy
+# Cloudflare
+ip-asn, 13335, proxy
+# Facebook
+ip-asn, 32934, proxy
+# Fastly
+ip-asn, 54113, proxy
+# Google & Cloud
+ip-asn, 15169, proxy
+ip-asn, 396982, proxy
+# Microsoft & Azure
+ip-asn, 8068, proxy
+ip-asn, 8075, proxy
+ip-asn, 53587, proxy
+# Netflix
+ip-asn, 2906, proxy
+# Telegram
+ip-asn, 44907, proxy
+ip-asn, 62041, proxy
+ip-asn, 62014, proxy
+ip-asn, 59930, proxy
+ip-asn, 211157, proxy
+# Twitter
+ip-asn, 13414, proxy
+# R(pornhub)
+ip-asn, 29789, proxy
