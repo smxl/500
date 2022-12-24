@@ -1,5 +1,5 @@
 # 极简模板 https://github.com/smxl/500
-# 28.11.22
+# 25.12.22
 [general]
 dns_reject_domain_behavior=no-error-no-answer
 
@@ -19,13 +19,15 @@ url-latency-benchmark=Fast, server-tag-regex=(?=.*(CN2|GIA|IPLC|IEPL)), img-url=
 高速订阅, tag=Fast, enabled=true, img-url=circle.dashed.system
 
 [filter_remote]
+https://github.com/smxl/500/raw/main/qx/reject.list, tag=ads
+https://github.com/smxl/500/raw/main/qx/direct.list, tag=lan
+https://github.com/smxl/500/raw/main/qx/proxy.list, tag=fix, force-policy=🚥
 
 [rewrite_remote]
 
 [server_local]
 
 [filter_local]
-host-wildcard, *.cn, direct
 geoip, cn, direct
 final, 🚥
 
