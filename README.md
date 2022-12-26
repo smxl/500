@@ -57,7 +57,7 @@ hijacking|规则|https://cnn.vercel.app/xf-hijacking|防劫持
 privacy|规则|https://cnn.vercel.app/xf-privacy|隐私
 tg|规则|https://cnn.vercel.app/xf-tg|Telegram
 unbreak|规则|https://cnn.vercel.app/xf-unbreak|规则修正
--|||-
+-|核酸类默认关闭||-
 adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告
 ads|重写|https://cnn.vercel.app/xr-ads|重写去广告
 adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告
@@ -66,7 +66,7 @@ bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
 covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝
 covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信
-covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码
+covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭
 emby|重写|https://cnn.vercel.app/xr-emby|Emby 解锁, 无通知
 fake|重写|https://cnn.vercel.app/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro
 jike|重写|https://cnn.vercel.app/xr-jike|即刻去直播
