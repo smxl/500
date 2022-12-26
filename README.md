@@ -57,13 +57,14 @@ hijacking|规则|https://cnn.vercel.app/xf-hijacking|防劫持
 privacy|规则|https://cnn.vercel.app/xf-privacy|隐私
 tg|规则|https://cnn.vercel.app/xf-tg|Telegram
 unbreak|规则|https://cnn.vercel.app/xf-unbreak|规则修正
--|核酸类默认关闭||-
+-|-|-|-
 adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告
 ads|重写|https://cnn.vercel.app/xr-ads|重写去广告
 adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告
 apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable 小组件显示美标 AQI
 bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
+-|2022.12||核酸类重写默认关闭, 如需要可自行开启, 预计会去掉, 保留重定向及说明
 covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝
 covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信
 covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭
