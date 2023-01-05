@@ -44,7 +44,7 @@ Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
 注1: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用 ~~另本配置使用了公开的 MITM 证书, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)~~
 
-注2: 由于 QX 并未提供对 naiveproxy 的支持, 当下版本推荐在局域网内的 OpenWRT 上运行, 通过本地服务 ```socks5=192.168.124.124:1080, tag=LAN``` 链接, 路由端添加启动脚本 ```naive /[PATH]/config.json```
+注2: 由于 QX 并未提供对 NaïveProxy (naiveproxy) 的支持, 当下版本推荐在局域网内的 OpenWRT 上运行, 通过本地服务 ```socks5=192.168.124.124:1080, tag=LAN``` 链接, 路由端添加启动脚本 ```naive /[PATH]/config.json```
 
 ## 分流规则和重写
 
@@ -61,12 +61,12 @@ unbreak|规则|https://cnn.vercel.app/xf-unbreak|规则修正
 adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告
 ads|重写|https://cnn.vercel.app/xr-ads|重写去广告
 adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告
-apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable 小组件显示美标 AQI
+apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable/IQair/在意空气 小组件显示美标 AQI
 bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
 -|2022.12||核酸类重写默认关闭, 如需要可自行开启, 预计会去掉, 保留重定向及说明
-covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝
-covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信
+covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝 默认关闭
+covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信 默认关闭
 covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭
 emby|重写|https://cnn.vercel.app/xr-emby|Emby 解锁, 无通知
 fake|重写|https://cnn.vercel.app/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro
