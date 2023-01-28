@@ -1,0 +1,4 @@
+host-wildcard, *baidu*, reject
+host-wildcard, *xiaomi*, reject
+host-wildcard, *.weibo.*, reject
+host-suffix, mi.com, reject
