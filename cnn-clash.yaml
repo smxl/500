@@ -1,12 +1,9 @@
-# 500 / Simple Config GeoIP for Clash 01.08.2023
+# 500 / Simple Config GeoIP for Clash 02.02.2023
 # https://cnn.vercel.app
 # https://github.com/smxl/500
 
-# port: 12330
 mixed-port: 7890
 external-controller: 127.0.0.1:9090
-
-allow-lan: true
 
 dns:
   enable: true
@@ -16,7 +13,7 @@ dns:
   fallback: [https://doh.dns.sb/dns-query, https://dns.cloudflare.com/dns-query]
 
 proxies:
-#  - {name: naiveproxy, server: 192.168.124.124, port: 1080, type: socks5}
+#  - {name: naiveproxy, server: 192.168.修改为实际IP, port: 1080, type: socks5}
 
 proxy-providers:
   # My: # 你也可以将 url 换成你的 clash 节点订阅 list 链接或者只替换 https://github.com/freefq/free/blob/master/v2?raw=true
