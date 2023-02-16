@@ -62,6 +62,7 @@ adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告
 ads|重写|https://cnn.vercel.app/xr-ads|重写去广告
 adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告
 apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable/IQair/在意空气 小组件显示美标 AQI
+bing|重写|https://cnn.vercel.app/xr-bing|New Bing AI
 bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
 -|2023.01||如有需要, 手动添加
