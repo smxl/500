@@ -27,6 +27,7 @@
       { "source": "/xr-covidhn", "destination": "https://github.com/ILoveNucleicAcidTest/covid19/raw/main/covid.qxrewrite" },
       { "source": "/xr-box", "destination": "https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf" },
       { "source": "/xr-emby", "destination": "https://github.com/smxl/500/raw/main/xd/emby.conf" },
+      { "source": "/xr-bing", "destination": "https://github.com/smxl/500/raw/main/xd/bing.conf" },
       { "source": "/xr-fake", "destination": "https://github.com/smxl/500/raw/main/xd/fake.conf" },
       { "source": "/xr-jike", "destination": "https://github.com/chouchoui/QuanX/raw/master/Scripts/jike/jike.qx.conf" },
       { "source": "/xr-jikeplus", "destination": "https://github.com/smxl/500/raw/main/xd/jike.conf" },
