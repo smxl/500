@@ -1,5 +1,7 @@
 Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式
 
+Disclaimer: 部分脚本由 ChatGPT 编写
+
 ## 简介
 > + 利用 Quantumult X 和 GeoIP 特性整合多个重写配置, 剔除大部分规则以节省开销, 通过 Vercel 重定向精简规则和配置文件
 - [使用方法](https://github.com/smxl/500#使用方法)
