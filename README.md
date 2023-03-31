@@ -38,9 +38,9 @@ Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 6. Quantumult X - 风车 - 其他设置 - GeoLite2 来源 添加 GeoIP
 
 7. GeoIP2-CN 选一 (复制链接或下载导入)
+> - [Loyalsoldier](https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb)
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
-> - [Loyalsoldier](https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb)
 
 8. 如你没有自己的订阅链接, 可直接使用, 若需要使用自己的订阅, 可把配置文件中 [server_remote] 下方 https://cnn.vercel.app/xv-sub 改为你的订阅链接
 
@@ -84,7 +84,7 @@ search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://cnn.vercel.app/xr-v|视频解析重写
 video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含视频解析重写, TikTok US, YouTube 去广告
 
-FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
+你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
 
 ## 小工具
 
@@ -103,9 +103,7 @@ V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.ve
 
 启用 res 重写后, 这些软件有增强: 哔哩哔哩, 彩云天气, 微信, 百度网盘...
 
-Clash for Windows 去机场广告
-
-不提供完整打包, 你可以下载 cfw 版本app.asar 替换 resources/app.asar
+~~Clash for Windows 去机场广告~~
 
 ## Clash 配置文件
 
