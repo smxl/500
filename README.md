@@ -109,7 +109,7 @@ V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.ve
 
 使用了 providers 配置
 
-下载: [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
+下载: [cnn-clash.yaml](https://github.com/smxl/500/raw/main/cnn-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
 
 如果需要使用自己的订阅, 你需要替换字段 https://api.10101.io/sub?target=clash&url=https://github.com/freefq/free/blob/master/v2?raw=true&list=true
 
@@ -132,7 +132,7 @@ proxy-providers:
 
 [https://cnn.vercel.app/q](https://cnn.vercel.app/q)
 
-500-min-clash.yaml
+cnn-clash.yaml
 
 [https://github.com/smxl/500/raw/main/cnn-clash.yaml](https://github.com/smxl/500/raw/main/cnn-clash.yaml)
 
