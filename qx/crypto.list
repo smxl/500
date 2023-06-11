@@ -1,0 +1,38 @@
+# CEX
+host-suffix, binance.com, proxy
+host-suffix, coinbase.com, proxy
+host-suffix, huobi.com, proxy
+host-suffix, bitget.com, proxy
+host-suffix, crypto.com, proxy
+host-suffix, kraken.com, proxy
+host-suffix, bitmex.com, proxy
+host-suffix, bitfinex.com, proxy
+# DEX
+host-suffix, uniswap.org, proxy
+host-suffix, sushiswap.org, proxy
+host-suffix, pancakeswap.finance, proxy
+host-suffix, 1inch.io, proxy
+host-suffix, bancor.network, proxy
+# C
+host-wildcard, *scan.io, proxy
+host-suffix, avax.network, proxy
+host-suffix, polygon.technology, proxy
+host-suffix, tezos.com, proxy
+host-suffix, solana.com, proxy
+host-suffix, arbitrum.io, proxy
+host-suffix, ethereum.org, proxy
+# T
+host-suffix, coinmarketcap.com, proxy
+host-suffix, coingecko.com, proxy
+host-suffix, cryptocompare.com, proxy
+host-suffix, tradingview.com, proxy
+host-suffix, defipulse.com, proxy
+host-suffix, nansen.ai, proxy
+# W
+host-suffix, metamask.io, proxy
+host-suffix, myetherwallet.com, proxy
+host-suffix, trustwallet.com, proxy
+host-suffix, ledger.com, proxy
+host-suffix, trezor.io, proxy
+host-suffix, exodus.io, proxy
+host-suffix, walletconnect.com, proxy
