@@ -44,3 +44,4 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 # Fin
 host-wildcard, *.cn, direct
+geoip, cn, direct
