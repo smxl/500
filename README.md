@@ -126,7 +126,7 @@ proxy-providers:
 
 ## 配置文件更新
 
-500-cnn.conf
+500.conf
 
 [https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)
 
