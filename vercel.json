@@ -1,6 +1,5 @@
 {
     "redirects": [
-      { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/cnn-clash.yaml" },
       { "source": "/gh", "destination": "https://github.com/smxl/500" },
       { "source": "/mmdb", "destination": "https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb" },
       { "source": "/q", "destination": "https://github.com/smxl/500/raw/main/500.conf" },
