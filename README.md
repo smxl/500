@@ -1,11 +1,10 @@
-Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式
+Simple Config GeoIP for Quantumult X (QuantumultX) 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式
 
 ## 简介
 > + 利用 Quantumult X 和 GeoIP 特性整合多个重写配置, 剔除大部分规则以节省开销, 通过 Vercel 重定向精简规则和配置文件
 - [使用方法](https://github.com/smxl/500#使用方法)
 - [分流规则和重写](https://github.com/smxl/500#分流规则和重写)
 - [小工具](https://github.com/smxl/500#小工具)
-- [Clash](https://github.com/smxl/500#clash-配置文件)
 - [配置文件更新](https://github.com/smxl/500#配置文件更新)
 - [推荐](https://github.com/smxl/500#推荐)
 
@@ -103,27 +102,6 @@ V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.ve
 
 启用 res 重写后, 这些软件有增强: 哔哩哔哩, 彩云天气, 微信, 百度网盘...
 
-~~Clash for Windows 去机场广告~~
-
-## Clash 配置文件
-
-使用了 providers 配置
-
-下载: [cnn-clash.yaml](https://github.com/smxl/500/raw/main/cnn-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
-
-如果需要使用自己的订阅, 你需要替换字段 https://api.10101.io/sub?target=clash&url=https://github.com/freefq/free/blob/master/v2?raw=true&list=true
-
-你也可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释
-
-```
-proxy-providers:
-  # My: # 你也可以将 url 换成你的 clash 节点订阅链接
-  #   type: http
-  #   path: ./my.yaml
-  #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
-...
-```
-
 ## 配置文件更新
 
 500.conf
@@ -131,12 +109,6 @@ proxy-providers:
 [https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)
 
 [https://cnn.vercel.app/q](https://cnn.vercel.app/q)
-
-cnn-clash.yaml
-
-[https://github.com/smxl/500/raw/main/cnn-clash.yaml](https://github.com/smxl/500/raw/main/cnn-clash.yaml)
-
-[https://cnn.vercel.app/c](https://cnn.vercel.app/c)
 
 ## 推荐
 
