@@ -83,7 +83,9 @@ search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://cnn.vercel.app/xr-v|视频解析重写
 video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含视频解析重写, TikTok US, YouTube 去广告
 
-你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效], 同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
+你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效]
+
+同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
 
 ## 小工具
 
@@ -91,12 +93,6 @@ video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含视频解析�
 -|-|-
 V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.vercel.app/v.html?vv=视频地址 支持参数传入, 替换中文部分为网址即可使用
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
-[YouTube 去广告油猴脚本](https://github.com/smxl/YouTube-Sponsor-Skip)|相较于 QX 重写更稳定|https://github.com/smxl/YouTube-Sponsor-Skip/raw/main/yt.sponsor.skip.user.js
-[AQI 小组件]()|不影响系统天气|
-
-请自行抓包, [iOS旧版应用下载v5.1](https://wwx.lanzoui.com/iBE4Emzgbkj) 或 [Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe) + 关键词 bpu MZBuy.woa Google
-
-建议下载旧版本 [iTunes 12.6.5.3](https://support.apple.com/zh-cn/HT208079) 抓包
 
 启用 fake 重写后, 这些软件有增强效果: Adguard, Day One, Draft, Documents, Lightroom, PS Express, Memrise, Spotify pro*... 标*表示不确定是否解锁内购或模拟 VIP
 
