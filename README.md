@@ -69,7 +69,6 @@ bing|重写|https://cnn.vercel.app/xr-bing|New Bing w/ Safari w\ Edge
 bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化
 box|重写|https://cnn.vercel.app/xr-box|BoxJS
 -|2023.01||如有需要, 手动添加
-covsc|重写|https://cnn.vercel.app/xr-covsc|24h 内核酸检测报告 四川天府健康通 精简 - 仅支付宝 默认关闭
 covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信 默认关闭
 covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭
 emby|重写|https://cnn.vercel.app/xr-emby|Emby 解锁, 无通知
