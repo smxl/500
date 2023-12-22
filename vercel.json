@@ -20,7 +20,7 @@
       { "source": "/xr-adscript", "destination": "https://github.com/blackmatrix7/ios_rule_script/raw/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf" },
       { "source": "/xr-apple", "destination": "https://github.com/smxl/500/raw/main/xd/apple.conf" },
       { "source": "/xr-aqi", "destination": "https://github.com/chouchoui/QuanX/raw/master/iOS_Weather_AQI_Standard.conf" },
-      { "source": "/xr-bili", "destination": "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bilibili.snippet" },
+      { "source": "/xr-bili", "destination": "https://github.com/RuCu6/QuanX/raw/main/Rewrites/Cube/bilibili.snippet" },
       { "source": "/xr-covsc", "destination": "https://sc.bwl.workers.dev/re" },
       { "source": "/xr-covidsc", "destination": "https://github.com/jdiop417/spring-learning/raw/master/foundation/src/main/java/org/learning/foundation/rpc/NucleicAcid.conf" },
       { "source": "/xr-covidhn", "destination": "https://github.com/ILoveNucleicAcidTest/covid19/raw/main/covid.qxrewrite" },
@@ -38,7 +38,7 @@
       { "source": "/xr-upgrade", "destination": "https://github.com/blackmatrix7/ios_rule_script/raw/master/rewrite/QuantumultX/Upgrade/Upgrade.conf" },
       { "source": "/xr-v", "destination": "https://github.com/smxl/500/raw/main/xd/v.conf" },
       { "source": "/xr-video", "destination": "https://github.com/smxl/500/raw/main/xd/video.conf" },
-      { "source": "/xr-youtube", "destination": "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet" },
+      { "source": "/xr-youtube", "destination": "https://github.com/RuCu6/QuanX/raw/main/Rewrites/Cube/youtube.snippet" },
       { "source": "/xv-sub", "destination": "https://api.10101.io/sub?target=quanx&url=https://github.com/freefq/free/blob/master/v2?raw=true&emoji=true&list=true&fdn=true&sort=true" }
     ],
     "github": {
