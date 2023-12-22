@@ -109,8 +109,16 @@ V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.ve
 
 本配置文件引用了一些项目或服务, 你可以在 vercel.json 找到他们
 
-为方便访问原项目, 配置文件中的引用方式均使用了 https://github.com/用户/项目/raw/分支/目录/文件 格式
+为方便访问原项目, 配置文件中的引用方式使用 `https://github.com/用户/项目/raw/分支/目录/文件` 的格式
+
+请复制 `https://github.com/用户/项目/` 到地址栏访问引用项目
+
+--
 
 极简模板 https://cnn.vercel.app 去掉大部分无用配置, 仅保留基础框架
 
 感谢 ilovexjp ILoveNucleicAcidTest etc.
+
+感谢 AI, Web3 和白纸
+
+感谢娱乐和你自己
