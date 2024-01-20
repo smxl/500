@@ -84,6 +84,8 @@ v|重写|https://cnn.vercel.app/xr-v|视频解析重写
 
 同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简
 
+2024 年由于 iOS API 的变动, TikTok 新版本只需要修改系统国家和一条分流规则即可使用 ```host-wildcard, *tiktok*, proxy```
+
 ## 小工具
 
 工具|作用|链接/补充
