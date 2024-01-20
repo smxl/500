@@ -73,14 +73,12 @@ covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四�
 covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭
 emby|重写|https://cnn.vercel.app/xr-emby|Emby 解锁, 无通知
 fake|重写|https://cnn.vercel.app/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro
-jike|重写|https://cnn.vercel.app/xr-jike|即刻去直播
 jsc|重写|https://cnn.vercel.app/xr-jsc|脚本获取 Cookies
 lk|重写|https://cnn.vercel.app/xr-lk|国外服务 Fake VIP
 upgrade|重写|https://cnn.vercel.app/xr-upgrade|屏蔽应用更新检查
 res|重写|https://cnn.vercel.app/xr-res|大陆软件优化
 search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写
 v|重写|https://cnn.vercel.app/xr-v|视频解析重写
-video|重写|https://cnn.vercel.app/xr-video|视频重写 3in1, 含视频解析重写, TikTok US, YouTube 去广告
 
 你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效]
 
