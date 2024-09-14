@@ -7,12 +7,18 @@ host-suffix, crypto.com, proxy
 host-suffix, kraken.com, proxy
 host-suffix, bitmex.com, proxy
 host-suffix, bitfinex.com, proxy
+host-wildcard, *bybit*, proxy
+host-wildcard, *okx*, proxy
+host-wildcard, api*.*by*.com, proxy
 # DEX
 host-suffix, uniswap.org, proxy
 host-suffix, sushiswap.org, proxy
 host-suffix, pancakeswap.finance, proxy
 host-suffix, 1inch.io, proxy
 host-suffix, bancor.network, proxy
+host-suffix, tensor.trade, proxy
+host-suffix, magiceden.io, proxy
+host-suffix, jup.ag, proxy
 # C
 host-wildcard, *scan.io, proxy
 host-suffix, avax.network, proxy
