@@ -90,7 +90,6 @@ v|重写|https://cnn.vercel.app/xr-v|视频解析重写
 
 工具|作用|链接/补充
 -|-|-
-V 视频|高可用解析|https://cnn.vercel.app/v?vv=视频地址 https://cnn.vercel.app/v.html?vv=视频地址 支持参数传入, 替换中文部分为网址即可使用
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 
 启用 fake 重写后, 这些软件有增强效果: Adguard, Day One, Draft, Documents, Lightroom, PS Express, Memrise, Spotify pro*... 标*表示不确定是否解锁内购或模拟 VIP
