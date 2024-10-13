@@ -1,47 +1,26 @@
 # Apple
-host-suffix, captive.apple.com, direct
-host-suffix, cdn-apple.com, direct
-host-suffix, configuration.apple.com, direct
-host-suffix, swcdn.apple.com, direct
+host, captive.apple.com, direct
+host-wildcard, *cdn*apple.com, direct
 host-wildcard, *appldnld.apple.com, direct
 host-wildcard, *.itunes.apple.com, direct
 host-wildcard, *.apps.apple.com, direct
 host-wildcard, *.mzstatic.com, direct
-# vio
-host-wildcard, *libvio*, direct
-# MSFT
-host-wildcard, *.sharepoint.*, direct
-# Tencent Cloud
-ip-asn, 132203, direct
-ip-asn, 45090, direct
-# Alibaba
-ip-asn, 37963, direct
-# Goxiang
-ip-asn, 24424, direct
+#host-wildcard, *.icloud-content.com, direct
 # Akamai
 ip-asn, 16625, direct
 ip-asn, 20940, direct
-# CT
-ip-asn, 4134, direct
-ip-asn, 4812, direct
-ip-asn, 38283, direct
-ip-asn, 139220, direct
-# CU
-ip-asn, 4837, direct
-# CM
-ip-asn, 9808, direct
-# Netease
-host-wildcard, *.126.*, direct
-host-wildcard, *.162.*, direct
-host-wildcard, *.netease.*, direct
-ip-asn, 45062, direct
-ip-asn, 137263, direct
-# Lan
-host-wildcard, *local*, direct
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 192.168.0.0/16, direct
+# MSFT
+host-wildcard, *.sharepoint.*, direct
+# Alibaba 24429
+ip-asn, 37963, direct
+# GCN
+ip-asn, 24424, direct
+# Tencent
+ip-asn, 132203, direct
+ip-asn, 45090, direct
+# HK, DE
+# ip-asn, 29141, direct
+ip-asn, 197540, direct
 # Fin
 host-wildcard, *.cn, direct
 geoip, cn, direct
