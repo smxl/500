@@ -4,6 +4,7 @@ ip-asn, 13335, proxy
 ip-asn, 15169, proxy
 # Apple
 ip-asn, 714, proxy
+host-suffix, apple-relay.apple.com, proxy
 # MSFT
 ip-asn, 8068, proxy
 ip-asn, 8075, proxy
