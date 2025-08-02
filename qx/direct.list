@@ -18,9 +18,15 @@ ip-asn, 24424, direct
 # Tencent
 ip-asn, 132203, direct
 ip-asn, 45090, direct
-# HK, DE
-# ip-asn, 29141, direct
+# IDC
 ip-asn, 197540, direct
+host-wildcard, *oracle*.com, direct
+# HK Bank
+host-suffix, hsbc.com.hk, direct
+host-suffix, za.group, direct
+host-suffix, airstarbank.com, direct
+host-suffix, bochk.com, direct
+host-suffix, bento.me, direct
 # Fin
 host-wildcard, *.cn, direct
 geoip, cn, direct
