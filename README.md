@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=smxl&project=500&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 Simple Config GeoIP for Quantumult X (QuantumultX), Loon, Stash 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式
 
 ## 简介
